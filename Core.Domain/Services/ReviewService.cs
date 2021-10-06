@@ -172,7 +172,46 @@ namespace Core.Domain.Services
 
         public List<int> GetTopRatedMovies(int amount)
         {
-            throw new NotImplementedException();
+            Dictionary<int, double> avgSorted = GetMoviesDictionarySortedByAvgRate();
+
+            List<int> returnList = new List<int>();
+
+            foreach (var item in avgSorted.Take(amount))
+            {
+                returnList.Add(item.Key);
+            }
+
+            return returnList;
+        }
+
+        private Dictionary<int, double> GetMoviesDictionarySortedByAvgRate()
+        {
+            List<BEReview> allReviews = _repo.GetAll();
+            
+            Dictionary<int, int> totalCount = new Dictionary<int, int>();
+            Dictionary<int, int> totalRate = new Dictionary<int, int>();
+
+            foreach (var review in allReviews)
+            {
+                if (totalCount.ContainsKey(review.Movie))
+                    totalCount[review.Movie]++;
+                else
+                    totalCount.Add(review.Movie, 1);
+
+                if (totalRate.ContainsKey(review.Movie))
+                    totalRate[review.Movie] += review.Grade;
+                else
+                    totalRate.Add(review.Movie, review.Grade);
+            }
+
+            Dictionary<int, double> avgRates = new Dictionary<int, double>();
+            foreach (KeyValuePair<int,int> pair in totalCount)
+            {
+                if (totalCount.ContainsKey(pair.Key) && totalRate.ContainsKey(pair.Key))
+                    avgRates.Add(pair.Key, (double) totalCount[pair.Key] / totalRate[pair.Key]);
+            }
+            
+            return avgRates.OrderBy(x => x.Value).ToDictionary(x => x.Key, x => x.Value);
         }
     }
 }

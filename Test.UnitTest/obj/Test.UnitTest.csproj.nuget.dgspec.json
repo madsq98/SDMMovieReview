@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mads Qvistgaard\\Documents\\GitHub\\SDMMovieReview\\Test.UnitTest\\Test.UnitTest.csproj": {}
+    "C:\\Users\\Bruger\\Documents\\GitHub\\SDMMovieReview\\Test.UnitTest\\Test.UnitTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mads Qvistgaard\\Documents\\GitHub\\SDMMovieReview\\Core.Core\\Core.Core.csproj": {
+    "C:\\Users\\Bruger\\Documents\\GitHub\\SDMMovieReview\\Core.Core\\Core.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mads Qvistgaard\\Documents\\GitHub\\SDMMovieReview\\Core.Core\\Core.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Bruger\\Documents\\GitHub\\SDMMovieReview\\Core.Core\\Core.Core.csproj",
         "projectName": "Core.Core",
-        "projectPath": "C:\\Users\\Mads Qvistgaard\\Documents\\GitHub\\SDMMovieReview\\Core.Core\\Core.Core.csproj",
-        "packagesPath": "C:\\Users\\Mads Qvistgaard\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mads Qvistgaard\\Documents\\GitHub\\SDMMovieReview\\Core.Core\\obj\\",
+        "projectPath": "C:\\Users\\Bruger\\Documents\\GitHub\\SDMMovieReview\\Core.Core\\Core.Core.csproj",
+        "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bruger\\Documents\\GitHub\\SDMMovieReview\\Core.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Mads Qvistgaard\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -52,34 +58,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Mads Qvistgaard\\.dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mads Qvistgaard\\Documents\\GitHub\\SDMMovieReview\\Core.Domain\\Core.Domain.csproj": {
+    "C:\\Users\\Bruger\\Documents\\GitHub\\SDMMovieReview\\Core.Domain\\Core.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mads Qvistgaard\\Documents\\GitHub\\SDMMovieReview\\Core.Domain\\Core.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Bruger\\Documents\\GitHub\\SDMMovieReview\\Core.Domain\\Core.Domain.csproj",
         "projectName": "Core.Domain",
-        "projectPath": "C:\\Users\\Mads Qvistgaard\\Documents\\GitHub\\SDMMovieReview\\Core.Domain\\Core.Domain.csproj",
-        "packagesPath": "C:\\Users\\Mads Qvistgaard\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mads Qvistgaard\\Documents\\GitHub\\SDMMovieReview\\Core.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Bruger\\Documents\\GitHub\\SDMMovieReview\\Core.Domain\\Core.Domain.csproj",
+        "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bruger\\Documents\\GitHub\\SDMMovieReview\\Core.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Mads Qvistgaard\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Mads Qvistgaard\\Documents\\GitHub\\SDMMovieReview\\Core.Core\\Core.Core.csproj": {
-                "projectPath": "C:\\Users\\Mads Qvistgaard\\Documents\\GitHub\\SDMMovieReview\\Core.Core\\Core.Core.csproj"
+              "C:\\Users\\Bruger\\Documents\\GitHub\\SDMMovieReview\\Core.Core\\Core.Core.csproj": {
+                "projectPath": "C:\\Users\\Bruger\\Documents\\GitHub\\SDMMovieReview\\Core.Core\\Core.Core.csproj"
               }
             }
           }
@@ -108,37 +120,43 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Mads Qvistgaard\\.dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mads Qvistgaard\\Documents\\GitHub\\SDMMovieReview\\Test.UnitTest\\Test.UnitTest.csproj": {
+    "C:\\Users\\Bruger\\Documents\\GitHub\\SDMMovieReview\\Test.UnitTest\\Test.UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mads Qvistgaard\\Documents\\GitHub\\SDMMovieReview\\Test.UnitTest\\Test.UnitTest.csproj",
+        "projectUniqueName": "C:\\Users\\Bruger\\Documents\\GitHub\\SDMMovieReview\\Test.UnitTest\\Test.UnitTest.csproj",
         "projectName": "Test.UnitTest",
-        "projectPath": "C:\\Users\\Mads Qvistgaard\\Documents\\GitHub\\SDMMovieReview\\Test.UnitTest\\Test.UnitTest.csproj",
-        "packagesPath": "C:\\Users\\Mads Qvistgaard\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mads Qvistgaard\\Documents\\GitHub\\SDMMovieReview\\Test.UnitTest\\obj\\",
+        "projectPath": "C:\\Users\\Bruger\\Documents\\GitHub\\SDMMovieReview\\Test.UnitTest\\Test.UnitTest.csproj",
+        "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bruger\\Documents\\GitHub\\SDMMovieReview\\Test.UnitTest\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Mads Qvistgaard\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Mads Qvistgaard\\Documents\\GitHub\\SDMMovieReview\\Core.Core\\Core.Core.csproj": {
-                "projectPath": "C:\\Users\\Mads Qvistgaard\\Documents\\GitHub\\SDMMovieReview\\Core.Core\\Core.Core.csproj"
+              "C:\\Users\\Bruger\\Documents\\GitHub\\SDMMovieReview\\Core.Core\\Core.Core.csproj": {
+                "projectPath": "C:\\Users\\Bruger\\Documents\\GitHub\\SDMMovieReview\\Core.Core\\Core.Core.csproj"
               },
-              "C:\\Users\\Mads Qvistgaard\\Documents\\GitHub\\SDMMovieReview\\Core.Domain\\Core.Domain.csproj": {
-                "projectPath": "C:\\Users\\Mads Qvistgaard\\Documents\\GitHub\\SDMMovieReview\\Core.Domain\\Core.Domain.csproj"
+              "C:\\Users\\Bruger\\Documents\\GitHub\\SDMMovieReview\\Core.Domain\\Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\Bruger\\Documents\\GitHub\\SDMMovieReview\\Core.Domain\\Core.Domain.csproj"
               }
             }
           }
@@ -193,7 +211,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Mads Qvistgaard\\.dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

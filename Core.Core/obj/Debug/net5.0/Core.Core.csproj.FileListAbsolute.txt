@@ -10,3 +10,15 @@ C:\Users\Mads Qvistgaard\Documents\GitHub\SDMMovieReview\Core.Core\obj\Debug\net
 C:\Users\Mads Qvistgaard\Documents\GitHub\SDMMovieReview\Core.Core\obj\Debug\net5.0\Core.Core.dll
 C:\Users\Mads Qvistgaard\Documents\GitHub\SDMMovieReview\Core.Core\obj\Debug\net5.0\ref\Core.Core.dll
 C:\Users\Mads Qvistgaard\Documents\GitHub\SDMMovieReview\Core.Core\obj\Debug\net5.0\Core.Core.pdb
+C:\Users\Bruger\Documents\GitHub\SDMMovieReview\Core.Core\bin\Debug\net5.0\Core.Core.deps.json
+C:\Users\Bruger\Documents\GitHub\SDMMovieReview\Core.Core\bin\Debug\net5.0\Core.Core.dll
+C:\Users\Bruger\Documents\GitHub\SDMMovieReview\Core.Core\bin\Debug\net5.0\ref\Core.Core.dll
+C:\Users\Bruger\Documents\GitHub\SDMMovieReview\Core.Core\bin\Debug\net5.0\Core.Core.pdb
+C:\Users\Bruger\Documents\GitHub\SDMMovieReview\Core.Core\obj\Debug\net5.0\Core.Core.csproj.AssemblyReference.cache
+C:\Users\Bruger\Documents\GitHub\SDMMovieReview\Core.Core\obj\Debug\net5.0\Core.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruger\Documents\GitHub\SDMMovieReview\Core.Core\obj\Debug\net5.0\Core.Core.AssemblyInfoInputs.cache
+C:\Users\Bruger\Documents\GitHub\SDMMovieReview\Core.Core\obj\Debug\net5.0\Core.Core.AssemblyInfo.cs
+C:\Users\Bruger\Documents\GitHub\SDMMovieReview\Core.Core\obj\Debug\net5.0\Core.Core.csproj.CoreCompileInputs.cache
+C:\Users\Bruger\Documents\GitHub\SDMMovieReview\Core.Core\obj\Debug\net5.0\Core.Core.dll
+C:\Users\Bruger\Documents\GitHub\SDMMovieReview\Core.Core\obj\Debug\net5.0\ref\Core.Core.dll
+C:\Users\Bruger\Documents\GitHub\SDMMovieReview\Core.Core\obj\Debug\net5.0\Core.Core.pdb

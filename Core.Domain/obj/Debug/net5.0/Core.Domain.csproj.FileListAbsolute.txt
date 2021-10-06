@@ -13,3 +13,18 @@ C:\Users\Mads Qvistgaard\Documents\GitHub\SDMMovieReview\Core.Domain\obj\Debug\n
 C:\Users\Mads Qvistgaard\Documents\GitHub\SDMMovieReview\Core.Domain\obj\Debug\net5.0\Core.Domain.dll
 C:\Users\Mads Qvistgaard\Documents\GitHub\SDMMovieReview\Core.Domain\obj\Debug\net5.0\ref\Core.Domain.dll
 C:\Users\Mads Qvistgaard\Documents\GitHub\SDMMovieReview\Core.Domain\obj\Debug\net5.0\Core.Domain.pdb
+C:\Users\Bruger\Documents\GitHub\SDMMovieReview\Core.Domain\bin\Debug\net5.0\Core.Domain.deps.json
+C:\Users\Bruger\Documents\GitHub\SDMMovieReview\Core.Domain\bin\Debug\net5.0\Core.Domain.dll
+C:\Users\Bruger\Documents\GitHub\SDMMovieReview\Core.Domain\bin\Debug\net5.0\ref\Core.Domain.dll
+C:\Users\Bruger\Documents\GitHub\SDMMovieReview\Core.Domain\bin\Debug\net5.0\Core.Domain.pdb
+C:\Users\Bruger\Documents\GitHub\SDMMovieReview\Core.Domain\bin\Debug\net5.0\Core.Core.dll
+C:\Users\Bruger\Documents\GitHub\SDMMovieReview\Core.Domain\bin\Debug\net5.0\Core.Core.pdb
+C:\Users\Bruger\Documents\GitHub\SDMMovieReview\Core.Domain\obj\Debug\net5.0\Core.Domain.csproj.AssemblyReference.cache
+C:\Users\Bruger\Documents\GitHub\SDMMovieReview\Core.Domain\obj\Debug\net5.0\Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruger\Documents\GitHub\SDMMovieReview\Core.Domain\obj\Debug\net5.0\Core.Domain.AssemblyInfoInputs.cache
+C:\Users\Bruger\Documents\GitHub\SDMMovieReview\Core.Domain\obj\Debug\net5.0\Core.Domain.AssemblyInfo.cs
+C:\Users\Bruger\Documents\GitHub\SDMMovieReview\Core.Domain\obj\Debug\net5.0\Core.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Bruger\Documents\GitHub\SDMMovieReview\Core.Domain\obj\Debug\net5.0\Core.Domain.csproj.CopyComplete
+C:\Users\Bruger\Documents\GitHub\SDMMovieReview\Core.Domain\obj\Debug\net5.0\Core.Domain.dll
+C:\Users\Bruger\Documents\GitHub\SDMMovieReview\Core.Domain\obj\Debug\net5.0\ref\Core.Domain.dll
+C:\Users\Bruger\Documents\GitHub\SDMMovieReview\Core.Domain\obj\Debug\net5.0\Core.Domain.pdb
