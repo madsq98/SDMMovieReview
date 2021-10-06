@@ -19,14 +19,16 @@ namespace Test.UnitTest
             new BEReview { Grade = 3, Movie = 2, Reviewer = 1, ReviewDate = DateTime.Now },
             new BEReview { Grade = 2, Movie = 4, Reviewer = 1, ReviewDate = DateTime.Now },
             new BEReview { Grade = 1, Movie = 5, Reviewer = 1, ReviewDate = DateTime.Now },
+            new BEReview { Grade = 3, Movie = 655, Reviewer = 1, ReviewDate = DateTime.Now },
             new BEReview { Grade = 3, Movie = 76, Reviewer = 2, ReviewDate = DateTime.Now },
             new BEReview { Grade = 2, Movie = 45, Reviewer = 2, ReviewDate = DateTime.Now },
             new BEReview { Grade = 5, Movie = 10, Reviewer = 2, ReviewDate = DateTime.Now },
             new BEReview { Grade = 4, Movie = 24, Reviewer = 2, ReviewDate = DateTime.Now },
+            new BEReview { Grade = 4, Movie = 10, Reviewer = 3, ReviewDate = DateTime.Now }
         };
 
         [Theory]
-        [InlineData(1,5)]
+        [InlineData(1,6)]
         [InlineData(2,4)]
         public void TestNumberOfReviewsFromReviewer(int reviewer, int expectedResult)
         {
@@ -114,6 +116,31 @@ namespace Test.UnitTest
             List<int> expectedResult = new List<int>() {1, 10};
 
             Assert.Equal(expectedResult, service.GetMoviesWithHighestNumberOfTopRates());
+        }
+
+        [Fact]
+        public void TestMostProductiveReviewers()
+        {
+            Mock<IReviewRepository> mock = new Mock<IReviewRepository>();
+            IReviewService service = new ReviewService(mock.Object);
+
+            mock.Setup(m => m.GetAll()).Returns(() => mockData);
+
+            List<int> expectedResult = new List<int>() {1};
+
+            Assert.Equal(expectedResult, service.GetMostProductiveReviewers());
+        }
+
+        [Fact]
+        public void TestTopRatedMovies()
+        {
+            Mock<IReviewRepository> mock = new Mock<IReviewRepository>();
+            IReviewService service = new ReviewService(mock.Object);
+
+            mock.Setup(m => m.GetAll()).Returns(() => mockData);
+
+            int amount = 5;
+            List<int> expectedResult = new List<int>() {1,10,24,2,76};
         }
     }
 }

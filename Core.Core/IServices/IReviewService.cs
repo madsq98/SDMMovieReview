@@ -18,5 +18,9 @@ namespace Core.Core.IServices
         int GetNumberOfRates(int movie, int rate);
         
         List<int> GetMoviesWithHighestNumberOfTopRates();
+
+        List<int> GetMostProductiveReviewers();
+
+        List<int> GetTopRatedMovies(int amount);
     }
 }

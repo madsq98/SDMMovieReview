@@ -140,5 +140,39 @@ namespace Core.Domain.Services
 
             return returnList;
         }
+
+        public List<int> GetMostProductiveReviewers()
+        {
+            List<BEReview> allReviews = _repo.GetAll();
+
+            IDictionary<int, int> assocList = new Dictionary<int, int>();
+
+            List<int> returnList = new List<int>();
+
+            foreach (BEReview review in allReviews)
+            {
+                if (assocList.ContainsKey(review.Reviewer))
+                        assocList[review.Reviewer]++;
+                else
+                    assocList.Add(review.Reviewer, 1);
+            }
+            
+            var ordered = assocList.OrderBy(x => x.Value).ToDictionary(x => x.Key, x => x.Value);
+
+            int highestCount = ordered[ordered.Last().Key];
+
+            foreach (KeyValuePair<int, int> entry in ordered)
+            {
+                if (entry.Value == highestCount)
+                    returnList.Add(entry.Key);
+            }
+
+            return returnList;
+        }
+
+        public List<int> GetTopRatedMovies(int amount)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
